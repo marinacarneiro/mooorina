@@ -1,0 +1,198 @@
+.mediacontent {
+    width:30%;
+    height: 30%;
+    max-width: 30%; 
+    margin-left: 35%; 
+    padding-bottom: 2em;
+
+}
+
+.conteudoimagens {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+
+.conteudo {
+    width:90%;
+    margin-left: 5%;
+}
+
+
+.soundcloud {
+    height: 300px;
+}
+
+.vimeo {
+    
+    margin-left: 0%;
+    width: 100%; 
+    border: none; 
+    padding-bottom: 1em;
+    max-width: 100%;
+    
+    
+}
+
+.textstyle{
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.85px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    padding-bottom: 0em;
+    color: black;
+    box-sizing: border-box;
+    max-width: 100%; 
+    margin-bottom: 0px;
+
+   }
+
+.descricao{
+        text-align: center;
+        max-width: 100%; 
+        font-size: 13px;
+        width:100%;
+    
+}
+
+.titulo {
+    text-align: center;
+    padding-bottom: 2em;
+    position: relative;  
+  
+}
+
+.naveg {
+    background-color: #f4f4f4;
+    color: black;
+    transition-duration: 2s;
+    animation-duration: 2s;
+    width: 100%;
+    
+    text-align: left;
+    vertical-align: bottom;
+    
+    position: fixed;
+    padding-top:1%;
+    z-index: 100;
+}
+
+.logotext {display: inline-block;
+    margin-left:5%;
+    font-size: 2em;
+
+}
+.menu{
+display: inline;
+font-size:1em; 
+    float: right;
+margin-right:5%;
+}
+.menu > a {
+    padding-right: 0%;
+    text-align: right;
+
+}
+
+.logo:hover{letter-spacing: 1.5em;}
+.logo{display: inline-block;transition-duration: .3s;}
+.inline {display: inline-block;transition-duration: .5s;}
+.inline:hover {letter-spacing: .2em}
+
+
+
+
+
+
+
+a:link{
+    text-decoration: none;   
+}
+
+body {
+    background-color: #f4f4f4;
+    }
+.container{background-color: white;}
+
+a{color:inherit}
+
+
+
+
+.itens {
+  display: none;
+    padding-right: 0px;
+padding-left: 0px;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+    width:90%;
+    height:100%;
+    padding-top: 2%;
+    margin-top: 0%;
+}
+
+.categ {
+    display: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0.15em;
+    position: relative;
+    padding-left: 1%;    
+}
+.animate {
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+a:hover{
+}
+
+
+
+
+
+.animate.active {
+  color: red;
+}
+
+.nomedoitem {
+    margin-top: 1%;  
+}
+
+.tipodeitem{
+    
+    font-size: 13px;
+    color: black;
+}
+
+img {
+    padding-bottom:0%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+@keyframes bounce {
+    from {transform: translateX(0)}
+    to {transform: translateX(1em)}
+}
+
+
+
+
+
+
+
+

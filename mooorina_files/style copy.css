@@ -1,0 +1,195 @@
+.mediacontent {
+    width:30%;
+    height: 30%;
+    max-width: 30%; 
+    margin-left: 35%; 
+    padding-bottom: 2em;
+
+}
+
+.conteudoimagens {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+
+.conteudo {
+    width:90%;
+    margin-left: 5%;
+}
+
+
+.soundcloud {
+    height: 300px;
+}
+
+.vimeo {
+    
+    margin-left: 0%;
+    width: 100%; 
+    border: none; 
+    padding-bottom: 1em;
+    max-width: 100%;
+    
+    
+}
+
+.textstyle{
+    text-align: center;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.85px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    padding-bottom: 0em;
+    color: black;
+    box-sizing: border-box;
+    max-width: 100%; 
+    margin-bottom: 0px;
+
+   }
+
+.descricao{
+        text-align: center;
+        max-width: 100%; 
+        font-size: 13px;
+        width:100%;
+    
+}
+
+.titulo {
+    text-align: center;
+    padding-bottom: 2em;
+    position: relative;  
+  
+}
+
+.logotitulo {
+    
+    margin-top:10%;
+    font-size:2em;
+    color: black;
+    margin-bottom: 1em;
+    text-align: left;
+     
+}
+
+.item1:hover {         animation-name: bounce;
+animation-duration: 1s; 
+      animation-direction: alternate;
+  animation-iteration-count: 2;
+    animation-delay: 1.2s;}
+
+.item2:hover {    animation-duration: 1s; 
+      animation-direction: alternate;
+  animation-iteration-count: 2;
+    animation-delay: 1.2s;}
+.item3 {animation-delay: 2.2s;}
+.item4 {animation-delay: 3.2s;}
+.item5 {animation-delay: 4.2s;}
+.item6 {animation-delay: 5.2s;}
+.item7 {animation-delay: 6.2s;}
+.item8 {animation-delay: 7.2s;}
+
+
+
+
+
+.a:hover{
+    
+        
+}
+
+
+
+
+
+a:link{
+    text-decoration: none;   
+}
+
+body {
+    background-color: #f4f4f4;
+    }
+
+a{color:inherit}
+
+
+
+
+.itens {
+  display: none;
+    padding-right: 0px;
+padding-left: 0px;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+    width:90%;
+    height:100%;
+}
+
+.categ {
+    display: none;
+    font-size: 18px;
+    z-index: 15;
+    color: black;
+    letter-spacing: 0.15em;
+    position: relative;
+    padding-left: 1%;    
+}
+.animate {
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+a:hover{
+line-height: 2em; transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+.animate.active {
+  color: red;
+}
+
+.nomedoitem {
+    margin-top: 1%;  
+}
+
+.tipodeitem{
+    
+    font-size: 13px;
+    color: black;
+}
+
+img {
+    padding-bottom:0%;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+@keyframes bounce {
+    from {transform: translateX(0)}
+    to {transform: translateX(1em)}
+}
+
+
+
+
+
+
+
+
